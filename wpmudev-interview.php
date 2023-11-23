@@ -45,19 +45,3 @@ add_action('wp_enqueue_scripts', function () {
         ['url' => site_url('wp-json/wpmudev-interview/v1/data')]
     );
 });
-
-
-
-// function my_shortcode_list()
-// {
-//     $data = get_my_table_data();
-// }
-
-// function get_my_table_data($page, $per_page, $orderby, $order, $search)
-// {
-//     return [];
-// }
-
-// function insert_data_to_my_table()
-// {
-// }
